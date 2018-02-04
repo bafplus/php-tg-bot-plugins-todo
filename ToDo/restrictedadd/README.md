@@ -1,0 +1,3 @@
+Restricts the bot so it can only be added to a groep by its botadmin or "botkeeper" tagged users. When the bot is added to a group it wil check if there is a botadmin and/or botkeeper present in that group. If there is none it wil autokick itself from that group and alerts the botadmin in PM. IF the bot is in a group and all botadmins/keepers have left the group it will also kick itself out. Optionaly a botadmin can tag a groupchat with a "grace" so it wont autokick if no admin is in that chat. Possible commands:
+* /botkeeper (un)set (userid) - Tags or untags that user as botkeeper
+* /restrictadd on/off/status - tags or untags the given chat to disable restrictedadd when no botadmin/keeper is in that group
